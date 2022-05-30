@@ -5,7 +5,7 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.details-container {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -140,13 +140,13 @@ li>input[type="text"] {
   width: 226px
 }
 
-button.delete img {
+button.delete-button img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.delete-button img:hover {
   transform: rotateZ(0);
 }
 
