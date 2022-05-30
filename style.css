@@ -5,32 +5,32 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.details-container {
+.details__container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.details-container 
+.details__container 
 img {
   width: 100%;
 }
 
-.details-container 
+.details__container 
 .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .details-container {
+  .details__container {
     text-align: center;
   }
 
 }
 
-.centered-container {
+.centered__container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -78,9 +78,9 @@ button {
 }
 
 /* Heading */
-.completed-tasks-label,
-.incomplete-tasks-title,
-.newtask-label {
+.completed-tasks__label,
+.incomplete-tasks__title,
+.newtask__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -108,17 +108,17 @@ button {
 }
 
 /* New Task */
-.newtask-label {
+.newtask__label {
   display: block;
   margin: 0 0 20px;
 }
 
-.newtask-input {
+.newtask__input {
   width: 318px;
 }
 
 /* Task list */
-.task-container {
+.task__container {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -128,22 +128,22 @@ button {
   align-items: center;
 }
 
-.task-container>* {
+.task__container>* {
   vertical-align: middle;
 }
 
-.task-container>.task-checkbox {
+.task__container>.task__checkbox {
   margin: 0 10px;
 }
 
-.task-container>.task-label {
+.task__container>.task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.task-container>.task {
+.task__container>.task {
   width: 226px
 }
 
@@ -161,26 +161,26 @@ img:hover {
 
 /* Completed */
 #completed-tasks 
-.task-label {
+.task__label {
   text-decoration: line-through color #888;
 }
 
 /* Edit Task */
-.tasks-container 
-.task-container 
+.tasks__container 
+.task__container 
 .task {
   display: none
 }
 
-.tasks-container 
-.task-container.edit-mode 
+.tasks__container 
+.task__container.edit-mode 
 .task {
   display: inline-block;
   width: 224px
 }
 
-.tasks-container 
-.task-container.edit-mode 
-.task-label {
+.tasks__container 
+.task__container.edit-mode 
+.task__label {
   display: none;
 }
